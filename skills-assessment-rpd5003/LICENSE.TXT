@@ -1,0 +1,2 @@
+Copyright (c) 2019 47Lining, a Hitachi Vantara Company
+All Rights Reserved

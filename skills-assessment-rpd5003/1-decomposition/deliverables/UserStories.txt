@@ -1,0 +1,10 @@
+1. As a Document Provider, I want to be able to upload up to 1000 documents per hour, averaging 50 GB in size each, per hour, so that I can have a persisted copy of these documents for retrieval at later dates.
+- Create new doc upload nano service
+- Make any modificatons necessary to legacy S3 Doc Uploda micro service
+2. As a Document Consumer, I want to be able to search and retrieve documents based on metadata of that document, so that I can retreive these documents quickly.
+- Create new doc search nano service
+- Make any modifications necessary to legacy RedShift doc search micro service
+3. As a Document Consumer, I want to be able to retrieve up to 20,000 documents per day on average, to meet client needs.
+- Perform performance/load/stress/end to end testing
+4. As the Extract/Enrichment team, I want to be able to deploy my releases in an automated fashion, weekly, so that I can make frequent updates to extract/enrichment features for our clients.
+- Build Code Pipeline
